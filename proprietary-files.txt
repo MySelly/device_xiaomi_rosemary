@@ -1738,6 +1738,10 @@ vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin:vendor/firmware/soc1_0_ram_bt_2a_1_hd
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
+
+# Patch for A14 QPR3
+vendor/lib/libMtkOmxVdecEx.so|2f3652161a30d12067787719f7f6da41366d4191
+
 vendor/bin/bip
 vendor/bin/ipsec_mon
 vendor/bin/lbs_hidl_service
