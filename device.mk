@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor \
 
 PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
     libdng_sdk.vendor
 
 # Cgroup
@@ -145,7 +146,15 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdrm \
-    libdrm.vendor
+    libdrm.vendor \
+    libexpat.vendor \
+    libion.vendor \
+    liblz4.vendor \
+    libpng.vendor \
+    libui.vendor
+
+PRODUCT_PACKAGES += \
+    libui_shim.vendor
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -174,6 +183,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+PRODUCT_PACKAGES += \
+    libgatekeeper.vendor
+
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0.vendor \
@@ -184,6 +196,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss-V1-ndk_platform.vendor
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libjsoncpp.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -200,6 +216,7 @@ PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0 \
     android.hidl.base@1.0.vendor \
     android.hidl.allocator@1.0.vendor \
+    libhidlmemory.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -233,8 +250,10 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
+    libdumpstateutil.vendor \
     libkeymaster41.vendor \
     libkeymaster4_1support.vendor \
+    libnetutils.vendor \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
 
@@ -345,6 +364,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.0.vendor \
     vendor.mediatek.hardware.mtkpower@1.1.vendor \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
+
+PRODUCT_PACKAGES += \
+    libpower.vendor
 
 # PowerOffAlarm
 PRODUCT_PACKAGES += \
@@ -471,7 +493,9 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libunwindstack.vendor \
     libutils-v32 \
+    libutilscallstack.vendor \
     libcrypto-v32 \
     libssl-v32
 

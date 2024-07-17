@@ -103,6 +103,9 @@ function blob_fixup {
         system_ext/lib64/libsink.so)
             "${PATCHELF}" --add-needed "libshim_sink.so" "$2"
             ;;
+        system_ext/lib64/libsource.so)
+            "${PATCHELF}" --add-needed "libshim_ui.so" "$2"
+            ;;
     esac
 }
 
