@@ -155,6 +155,7 @@ PRODUCT_PACKAGES += \
     libui.vendor
 
 PRODUCT_PACKAGES += \
+    libui_shim \
     libui_shim.vendor
 
 # Dynamic Partitions
