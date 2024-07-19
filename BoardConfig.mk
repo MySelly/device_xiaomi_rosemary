@@ -94,6 +94,7 @@ TARGET_KERNEL_CONFIG := rosemary_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/dtbo.mk
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/kernel/$(HOST_OS)-x86/clang-r416183b
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
