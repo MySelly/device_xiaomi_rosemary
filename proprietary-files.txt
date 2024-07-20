@@ -881,7 +881,7 @@ vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so
-vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so|4ac33cfe73e05c6315e4d6f7f0ebc2a4e3d037f3
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
