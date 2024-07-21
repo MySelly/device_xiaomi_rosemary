@@ -106,7 +106,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_metadata.vendor \
     libdng_sdk.vendor \
-    libsqlite.vendor
+    libexif.vendor \
+    libsqlite.vendor \
+    libyuv.vendor
 
 # Cgroup
 PRODUCT_COPY_FILES += \
