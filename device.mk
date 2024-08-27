@@ -53,7 +53,13 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.bluetooth.audio-impl \
-    android.hardware.soundtrigger@2.3-impl
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.common@6.0-util \
+    android.hardware.bluetooth.a2dp@1.0 \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -521,3 +527,11 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
+
+-include vendor/lineage-priv/keys/keys.mk
+
+# Miui Camera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
