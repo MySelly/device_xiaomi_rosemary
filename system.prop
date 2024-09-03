@@ -160,10 +160,6 @@ dalvik.vm.bg-dexopt=true
 dalvik.vm.dex2oat-Xms64m
 dalvik.vm.dex2oat-Xmx512m
 
-# Disable kernel panic for better stability
-ro.kernel.android.checkjni=0
-ro.kernel.checkjni=0
-
 # Reduce the delay before killing inactive processes
 persist.sys.purgeable_assets=1
 
