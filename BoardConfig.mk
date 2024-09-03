@@ -49,6 +49,15 @@ ART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
+# HWUI For Performance
+HWUI_COMPILE_FOR_PERF := true
+
+# HWUI
+USE_OPENGL_RENDERER := true
+
 # Bootloader
 BOARD_VENDOR := xiaomi
 TARGET_BOOTLOADER_BOARD_NAME := rosemary
@@ -87,9 +96,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # HIDL
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
-
-# HWUI
-USE_OPENGL_RENDERER := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_rosemary
