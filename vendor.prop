@@ -152,6 +152,7 @@ persist.vendor.mtk.volte.enable=1
 persist.vendor.vilte_support=0
 persist.vendor.viwifi_support=1
 
+
 # LMK
 ro.lmk.filecache_min_kb=153600
 ro.lmk.kill_timeout_ms=50
@@ -193,6 +194,7 @@ persist.vendor.radio.msimmode=dsds
 ro.vendor.radio.max.multisim=dsds
 ro.telephony.sim.count=2
 telephony.active_modems.max_count=2
+persist.vendor.radio.add_power_save=0
 persist.vendor.radio.fd.counter=150
 persist.vendor.radio.fd.off.counter=50
 persist.vendor.radio.fd.r8.counter=150
@@ -353,3 +355,8 @@ pm.sleep_mode=1
 
 # Sensors
 persist.vendor.sensors.debug.hal=0
+
+# Disable Blur
+ro.surface_flinger.supports_background_blur=0
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=0
