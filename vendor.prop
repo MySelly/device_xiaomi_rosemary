@@ -343,3 +343,13 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
+
+# Battery Backup
+ro.config.hw_power_extreme_saving=1
+ro.config.hw_power_saving=1
+ro.ril.power_collapse=1
+ro.ril.disable.power.collapse=0
+pm.sleep_mode=1
+
+# Sensors
+persist.vendor.sensors.debug.hal=0
