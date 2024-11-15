@@ -13,6 +13,7 @@ cc_library_static {
     srcs: [
         "Vibrator.cpp",
     ],
+    cflags: ["-Wno-unused-parameter"],
     visibility: [
         ":__subpackages__",
         "//hardware/interfaces/tests/extension/vibrator:__subpackages__",
