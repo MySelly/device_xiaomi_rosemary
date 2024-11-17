@@ -538,10 +538,5 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
 
--include vendor/lineage-priv/keys/keys.mk
-
-# Miui Camera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
-
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+TARGET_BOARD_PLATFORM := mt6785
 

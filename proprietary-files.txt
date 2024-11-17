@@ -2951,3 +2951,7 @@ vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/lib_sr_models.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libsdk_sr.so
+
+# Media OMX - from begonia V12.5.8.0.RGGMIXM
+vendor/lib/libMtkOmxVdecEx.so
+
