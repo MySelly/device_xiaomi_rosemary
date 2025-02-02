@@ -93,6 +93,12 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey

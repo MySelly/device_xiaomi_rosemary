@@ -88,6 +88,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # HIDL
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/configs/hidl/device_framework_compatibility_matrix.xml \
+    hardware/dolby/configs/vintf/dolby_framework_matrix.xml
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -180,7 +183,7 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
     vendor/lineage/config/device_framework_matrix.xml
 
