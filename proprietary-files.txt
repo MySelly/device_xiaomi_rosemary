@@ -1588,6 +1588,9 @@ vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so
 
+# Firmware - from A055FXXS5CXG1
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|8c5d8e93ad8a03c6de5aaaad8ef58d53e75c8378
+
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
