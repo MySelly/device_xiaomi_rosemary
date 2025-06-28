@@ -352,3 +352,7 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Bcr
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
+# Miui Camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
